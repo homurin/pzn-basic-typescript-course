@@ -10,19 +10,19 @@ describe("array", () => {
     // read only array
 
     const fourEmperor: ReadonlyArray<String> = [
-      "Edward Newgate",
+      "Shirohige Edward Newgate",
       "Akagami no Shanks",
-      "Hakuju no Kaido",
-      "Bigmom",
+      "Hyakuju no Kaido",
+      "Bigmom Charlotte Linlin",
     ];
 
     // uncomment for the example and run npx tsc
 
-    // fourEmperor[0] = "Marsall D Teach";
+    // fourEmperor[0] = "Kurohige Marsall D Teach";
 
     console.info(fourEmperor);
   });
-  it("should suppoer tuple", () => {
+  it("should support tuple", () => {
     const person: readonly [string, string, number] = ["Sosuke", "Aizen", 100];
     console.info(person);
   });

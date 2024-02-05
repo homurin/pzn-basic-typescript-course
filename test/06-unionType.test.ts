@@ -10,7 +10,7 @@ describe("Union", () => {
     // sample = ['Debian'];
     // console.log(sample);
   });
-  it("should support typof operator", () => {
+  it("should support typeof operator", () => {
     function process(val: number | string | boolean) {
       if (typeof val === "string") {
         return val.toUpperCase();
